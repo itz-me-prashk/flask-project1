@@ -1,0 +1,52 @@
+<style type="text/css">
+	.none{
+		display: flex;
+		justify-content: center;
+		align-items:center ;
+	}
+	h1{
+		color:black;
+		font-size: 100px;
+	}
+	body{
+		background-color:rgb(220, 242, 248, 1.0) ;
+		display: flex;
+		justify-content: center;
+		align-items:center ;
+	}
+	.none div{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items:center ;
+		width:800px;
+		height:390px;
+		box-shadow: 2px 2px 10px black;
+		background-color: white;
+		border-radius: 20px;
+	}
+	button{
+		width:200px;
+		padding: 20px;
+		background-color: /*rgb(52, 153, 255, 1.0)*/ white;
+		color:rgb(52, 153, 255, 1.0);
+		border-style: solid;
+		border-color:rgb(52, 153, 255, 1.0) ;
+	}
+	button:hover{
+		background-color: rgb(52, 153, 255, 1.0);
+		color:white;
+		cursor: pointer;
+	}
+</style>
+<div class='none'>
+	<div>
+		<h1> Welcome </h1>
+		<br>
+		<a href="{{url_for('signin')}}">
+			<button>
+				Next >
+			</button>
+		</a>
+	</div>
+</div>
