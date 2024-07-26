@@ -1,4 +1,3 @@
-#2ND Project  
 #---------------------------------------------------------------------
 import flask
 from flask import Flask,render_template,url_for,redirect,request,flash,session
